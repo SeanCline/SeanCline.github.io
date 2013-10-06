@@ -1,0 +1,181 @@
+﻿/*
+ * Page Layout
+ */
+#wrapper {
+	/* Fixed width aligned center */
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#about {
+	/* Aligned center */
+	display: table;
+	margin: 0 auto;
+}
+
+#header > h1, #links {
+	/* Name and links on same line. */
+	display: inline-block;
+}
+
+/*
+ * Fonts, Links, and Background.
+ */
+* {
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+a:link    { color: #3987D6; text-decoration: none; }
+a:visited { color: #396ca0; text-decoration: none; }
+a:hover   { color: #479bef; text-decoration: underline; }
+a:active  { color: #479bef; text-decoration: none; }
+
+body {
+	background-color: #FCFCFC;
+} 
+
+#content {
+	font-size: 11pt;
+}
+
+h1 {
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-size: 20pt;
+	text-align: center;
+	border-bottom: #DDDDDD solid thin;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-size: 16pt;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+ * Header
+ */
+a img
+{
+	border-style: none; /* Remove IE's blue border around image links. */
+}
+
+#links > a {
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+/*
+ * Experience
+ */
+.position {
+	float: left;
+}
+ 
+.timespan {
+	float: right;
+}
+ 
+.location {
+	clear: both;
+}
+
+#experience > section {
+	margin-bottom: 70px;
+}
+
+/*
+ * About
+ */
+#skills td {
+	padding: 5px 2px;
+}
+
+#about > div {
+	padding: 5px;
+}
+ 
+.skill-title {
+	text-align: right;
+}
+
+/*
+ * Lists
+ */ 
+.skill-list {
+	display: inline;
+	list-style: none;
+	padding: 0;
+	padding-left: 3px;
+}
+
+.skill-list li {
+	display: inline;
+	font-weight: bold;
+}
+
+.skill-list li:after {
+	content: ", ";
+}
+
+.skill-list li:last-child:after {
+	content: "";
+}
+
+/*
+ * "Progress" bars.
+ */
+.progressbar {
+	background-color: #E2E2E6;
+	border-radius: 5px;
+	width: 265px;
+	padding: 2px;
+	position: relative;
+}
+
+.progress-animation > div {
+	background-color: #3987D6;
+	height: 20px;
+	border-radius: 4px;
+	/* width is set by in the DOM to the progess percentage. */
+}
+
+/*
+ * Animations
+ */
+#header > h1, #links {
+	animation: slideinleft 300ms;
+}
+
+header > p, #content {
+	animation-name: fadein, slideinup;
+	animation-duration: 200ms;
+}
+
+.progress-animation {
+	animation: growwidth 800ms;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes slideinleft {
+    from { transform: translate(50px, 0px); }
+    to   { transform: translate(0px, 0px);  }
+}
+
+@keyframes slideinup {
+    from { transform: translate(0px, 50px); }
+    to   { transform: translate(0px, 0px);  }
+}
+
+@keyframes growwidth {
+    from { width: 0%;   }
+    to   { width: 100%; }
+}
+
