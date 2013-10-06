@@ -148,15 +148,19 @@ a img
  */
 #header > h1, #links {
 	animation: slideinleft 300ms;
+	-webkit-animation: slideinleft 300ms; /* Webkit */
 }
 
 header > p, #content {
 	animation-name: fadein, slideinup;
 	animation-duration: 200ms;
+	-webkit-animation-name: fadein, slideinup; /* Webkit */
+	-webkit-animation-duration: 200ms; /* Webkit */
 }
 
 .progress-animation {
 	animation: growwidth 800ms;
+	-webkit-animation: growwidth 800ms; /* Webkit */
 }
 
 @keyframes fadein {
@@ -164,18 +168,38 @@ header > p, #content {
     to   { opacity: 1; }
 }
 
-@keyframes slideinleft {
-    from { transform: translate(50px, 0px); }
-    to   { transform: translate(0px, 0px);  }
-}
-
-@keyframes slideinup {
-    from { transform: translate(0px, 50px); }
-    to   { transform: translate(0px, 0px);  }
+@-webkit-keyframes fadein { /* Webkit */
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 @keyframes growwidth {
     from { width: 0%;   }
     to   { width: 100%; }
+}
+
+@-webkit-keyframes growwidth { /* Webkit */
+    from { width: 0%;   }
+    to   { width: 100%; }
+}
+
+@keyframes slideinleft {
+    from { -webkit-transform: translate(50px, 0px); }
+    to   { -webkit-transform: translate(0px, 0px);  }
+}
+
+@-webkit-keyframes slideinleft { /* Webkit */
+    from { -webkit-transform: translate(50px, 0px); }
+    to   { -webkit-transform: translate(0px, 0px);  }
+}
+
+@keyframes slideinup {
+    from { -webkit-transform: translate(0px, 50px); }
+    to   { -webkit-transform: translate(0px, 0px);  }
+}
+
+@-webkit-keyframes slideinup { /* Webkit */
+    from { -webkit-transform: translate(0px, 50px); }
+    to   { -webkit-transform: translate(0px, 0px);  }
 }
 
