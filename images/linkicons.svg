@@ -11,11 +11,11 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="450"
+   width="600"
    height="125"
    id="svg2"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="so2.svg">
+   sodipodi:docname="linkicons.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -25,16 +25,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="2498"
+     inkscape:window-height="1581"
      id="namedview31"
      showgrid="false"
-     inkscape:zoom="0.89881129"
-     inkscape:cx="255.87668"
-     inkscape:cy="64.010551"
-     inkscape:window-x="2580"
-     inkscape:window-y="294"
-     inkscape:window-maximized="0"
+     inkscape:zoom="2.5422222"
+     inkscape:cx="334.38289"
+     inkscape:cy="-19.276834"
+     inkscape:window-x="1974"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <defs
      id="defs4">
@@ -97,7 +97,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -184,4 +184,12 @@
        id="path3875-7"
        d="M 31.980515,109.10098 74.152975,67.631401 89.533113,82.914551 105.01322,67.7297 147.08571,109.10098" />
   </g>
+  <path
+     inkscape:connector-curvature="0"
+     id="path3005"
+     style="fill:#a5a5a5;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     d="m 530.28574,13.171606 c -28.30853,0 -51.26378,22.9521 -51.26378,51.270076 0,22.646837 14.68771,41.860128 35.0623,48.642218 2.56492,0.46892 3.49962,-1.11409 3.49962,-2.47366 0,-1.21479 -0.0441,-4.44061 -0.0692,-8.71758 -14.2597,3.09679 -17.26837,-6.873346 -17.26837,-6.873346 -2.33204,-5.92292 -5.69318,-7.49649 -5.69318,-7.49649 -4.65462,-3.181759 0.35248,-3.118817 0.35248,-3.118817 5.14558,0.365069 7.85212,5.28405 7.85212,5.28405 4.57279,7.833235 11.9969,5.570439 14.92059,4.261229 0.46578,-3.31394 1.78758,-5.573587 3.25415,-6.854474 -11.38321,-1.293474 -23.35179,-5.693178 -23.35179,-25.337642 0,-5.595617 1.99844,-10.171559 5.27776,-13.756153 -0.52872,-1.296623 -2.28798,-6.508287 0.50039,-13.567325 0,0 4.3053,-1.378448 14.0992,5.255725 4.08813,-1.139264 8.47525,-1.70575 12.83404,-1.72778 4.35249,0.0219 8.7396,0.588516 12.83404,1.72778 9.7876,-6.634173 14.08345,-5.255725 14.08345,-5.255725 2.79781,7.059038 1.03856,12.270702 0.50984,13.567325 3.28562,3.584594 5.27146,8.160536 5.27146,13.756153 0,19.694819 -11.98746,24.028433 -23.40844,25.29673 1.84108,1.583012 3.48074,4.71127 3.48074,9.494925 0,6.851315 -0.063,12.380845 -0.063,14.061415 0,1.37216 0.92211,2.96776 3.5248,2.46737 20.35256,-6.79469 35.03083,-25.995386 35.03083,-48.635928 0,-28.317976 -22.95525,-51.270076 -51.27008,-51.270076"
+     inkscape:export-filename="C:\Users\Sean\Desktop\SeanCline.github.io\images\gh.png"
+     inkscape:export-xdpi="27.210535"
+     inkscape:export-ydpi="27.210535" />
 </svg>

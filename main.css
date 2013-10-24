@@ -38,7 +38,7 @@ body {
 	font-size: 11pt;
 }
 
-h1 {
+#header {
 	margin-bottom: 0px;
 }
 
@@ -47,6 +47,7 @@ h2 {
 	text-align: center;
 	border-bottom: #DDDDDD solid thin;
 	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 /*
@@ -79,8 +80,8 @@ a img
 	clear: both;
 }
 
-#experience > section {
-	margin-bottom: 70px;
+#content > section {
+	margin-bottom: 90px;
 }
 
 /*
@@ -142,12 +143,12 @@ a img
 /*
  * Animations
  */
-#header > h1, #links {
+#header {
 	animation: slideinleft 400ms;
 	-webkit-animation: slideinleft 400ms; /* Webkit */
 }
 
-header > p, #content {
+#content {
 	animation-name: fadein, slideinup;
 	animation-duration: 350ms;
 	-webkit-animation-name: fadein, slideinup; /* Webkit */
