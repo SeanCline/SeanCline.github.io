@@ -13,11 +13,6 @@
 	margin: 0 auto;
 }
 
-#header > h1, #links {
-	/* Name and links on same line. */
-	display: inline-block;
-}
-
 /*
  * Fonts, Links, and Background.
  */
@@ -39,7 +34,13 @@ body {
 }
 
 #header {
-	margin-bottom: 0px;
+	margin-bottom: 40px;
+}
+
+h1 {
+	font-size: 30pt;
+	text-align: center;
+	margin-bottom: 12px;
 }
 
 h2 {
@@ -58,9 +59,25 @@ a img
 	border-style: none; /* Remove IE's blue border around image links. */
 }
 
+#links {
+	border-top:    #DDDDDD solid thin;
+	border-bottom: #DDDDDD solid thin;
+	padding-top:    10px;
+	padding-bottom: 12px;
+	text-align: center;
+}
+
 #links > a {
-	margin-left: 20px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-left:  20px;
 	text-decoration: none;
+	font-size: 16pt;
+	vertical-align: middle;
+}
+
+#links > a > img {
+	vertical-align: text-top;
 }
 
 /*
@@ -126,7 +143,7 @@ a img
  * "Progress" bars.
  */
 .progressbar {
-	background-color: #E2E2E6;
+	background-color: #E8E8EA;
 	border-radius: 5px;
 	width: 265px;
 	padding: 2px;
@@ -137,18 +154,18 @@ a img
 	background-color: #3987D6;
 	height: 20px;
 	border-radius: 4px;
-	/* width is set by in the DOM to the progess percentage. */
+	/* width is set in the DOM to the progess percentage. */
 }
 
 /*
  * Animations
  */
-#header {
+#header > h1 {
 	animation: slideinleft 400ms;
 	-webkit-animation: slideinleft 400ms; /* Webkit */
 }
 
-#content {
+#content, #links {
 	animation-name: fadein, slideinup;
 	animation-duration: 350ms;
 	-webkit-animation-name: fadein, slideinup; /* Webkit */
