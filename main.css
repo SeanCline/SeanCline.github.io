@@ -158,11 +158,11 @@ a img
 }
 
 .book .ISBN::before  {
-	margin-top: 10px;
 	content: "ISBN: ";
 }
 
 .book .ISBN  {
+	margin-top: .5em;
 	float: right;
 }
 
