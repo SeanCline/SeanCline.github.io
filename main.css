@@ -71,15 +71,18 @@ a img
 	padding-top:    10px;
 	padding-bottom: 12px;
 	text-align: center;
+	line-height: 2.5em;
 }
 
 #links > a {
 	display: inline-block;
-	margin-right: 20px;
-	margin-left:  20px;
 	text-decoration: none;
 	font-size: 16pt;
 	vertical-align: middle;
+}
+
+#links > a + a { /* Put space between each link but not before the first or after the last. */
+	margin-left: 40px;
 }
 
 #links > a > img {
