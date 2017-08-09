@@ -87,6 +87,7 @@ a img
 
 #links > a > img {
 	vertical-align: text-top;
+	margin-right: .5em;
 }
 
 /*
@@ -123,50 +124,6 @@ a img
  
 .skill-title {
 	text-align: right;
-}
-
-/*
- * Books
- */
-.book {
-	margin-bottom: 1.5em;
-	font-size: 11pt;
-}
-
-.book .title  {
-	display: inline;
-	font-size: 14pt;
-}
-
-.book .subtitle::before  {
-	content: "(";
-}
-
-.book .subtitle::after  {
-	content: ")";
-}
-
-.book .subtitle  {
-	display: inline;
-	padding-left: .5em;
-	font-size: 10pt;
-}
-
-.book .author  {
-	clear: both;
-}
-
-.book .ASIN  {
-	display: none;
-}
-
-.book .ISBN::before  {
-	content: "ISBN: ";
-}
-
-.book .ISBN  {
-	margin-top: .5em;
-	float: right;
 }
 
 /*
