@@ -38,10 +38,10 @@
 	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
 }
 
-a:link    { color: #3987D6; text-decoration: none; }
-a:visited { color: #396ca0; text-decoration: none; }
-a:hover   { color: #479bef; text-decoration: underline; }
-a:active  { color: #479bef; text-decoration: none; }
+a:link    { color: #1177EE; text-decoration: none; }
+a:visited { color: #1166BB; text-decoration: none; }
+a:hover   { color: #1166DD; text-decoration: underline; }
+a:active  { color: #1166DD; text-decoration: none; }
 
 body {
 	background-color: #FCFCFC;
@@ -179,7 +179,7 @@ a img
 }
 
 .progress-animation > div {
-	background-color: #3987D6;
+	background-color: #1177EE;
 	height: 20px;
 	border-radius: 4px;
 	/* width is set in the DOM to the progess percentage. */
