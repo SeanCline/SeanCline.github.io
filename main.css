@@ -22,9 +22,13 @@
 }
 
 #about {
-	/* Aligned center */
-	display: table;
-	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#about > div {
+	text-align: center;
 }
 
 /*
