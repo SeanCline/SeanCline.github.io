@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<script>
+		(function () {
+			var routes = {
+				'rabidkeyboard': '/RabidKeyboard/',
+				'atari8bitcart': '/atari8bitcart/'
+			};
+			var slug = window.location.pathname.replace(/^\/|\/$/g, '').toLowerCase();
+			if (routes[slug]) window.location.replace(routes[slug]);
+		})();
+	</script>
 	<title>404 &mdash; Sean D. Cline</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="main.css" />
